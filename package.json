@@ -4,7 +4,7 @@
   "description": "Generate release notes using AI",
   "main": "index.js",
   "bin": {
-    "git-release-notes-ai": "./index.js"
+    "git-release-notes-ai": "index.js"
   },
   "scripts": {
     "start": "node index.js"
