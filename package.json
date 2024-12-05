@@ -1,0 +1,24 @@
+{
+  "name": "git-release-notes-ai",
+  "version": "1.0.0",
+  "description": "Generate release notes using AI",
+  "main": "index.js",
+  "bin": {
+    "git-release-notes-ai": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "git",
+    "release-notes",
+    "AI"
+  ],
+  "author": "Jorge del Rio",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.68.4",
+    "tiktoken": "^1.0.17",
+    "yargs": "^17.7.2"
+  }
+}
